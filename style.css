@@ -15,7 +15,47 @@ body {
     height: 100vh;
 }
 
-h1 {
+#main {
     color: #49a7ea;
-    font-size: 200px;
+}
+
+h1 {
+    font-size: 150px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 50px;
+    padding-bottom: 0.5em;
+}
+
+h3 {
+    font-size: 30px;
+    padding-bottom: 0.3em;
+}
+
+p {
+    padding-bottom: 0.2em;
+}
+
+ul {
+    padding-left: 2em;
+}
+
+ul li {
+    padding: 0.1em;
+}
+
+a:visited {
+    color: #2075b3;
+    text-decoration: none;
+}
+
+a:link {
+    color: #33a9ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
